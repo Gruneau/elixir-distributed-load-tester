@@ -10,10 +10,15 @@
 Make sure to cd into the root directory of the project first, then open three terminal tabs and in each one start a new named interactive elixir shell:
 
 TAB 1:
+
 iex --name bravo@127.0.0.1 -S mix
+
 TAB 2:
+
 iex --name charlie@127.0.0.1 -S mix
+
 TAB 3:
+
 iex --name delta@127.0.0.1 -S mix
 
 

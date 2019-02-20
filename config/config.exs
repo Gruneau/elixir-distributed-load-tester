@@ -7,12 +7,12 @@ use Mix.Config
 # file won't be loaded nor affect the parent project. For this reason,
 # if you want to provide default values for your application for
 # 3rd-party users, it should be done in your "mix.exs" file.
-config :blitzy, master_node: :"a@127.0.0.1"
+config :blitzy, master_node: :"alpha@127.0.0.1"
 
 config :blitzy, slave_nodes: [
-  :"b@127.0.0.1",
-  :"c@127.0.0.1",
-  :"d@127.0.0.1",
+  :"bravo@127.0.0.1",
+  :"charlie@127.0.0.1",
+  :"delta@127.0.0.1",
 ]
 # You can configure your application as:
 #
